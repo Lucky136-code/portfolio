@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Cinematic AI/ML Developer Portfolio
 
-## Getting Started
+A premium, highly interactive 3D developer portfolio designed with a clean, cinematic, hollywood-inspired command center aesthetic. Powered by **Next.js**, **Three.js (WebGL)**, and **Framer Motion**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Key Visual & Technical Features
+
+### 1. Scroll-Linked 3D Skyscraper Grid
+* **Monochrome Skyline**: Skyscraper grids procedurally generated using shades of white, light gray, and zinc gray for high contrast.
+* **Scroll-Responsive Travel**: As you scroll down the page, a custom low-poly armored tactical vehicle (Tumbler-inspired) drives down the central highway, with all tires spinning dynamically in sync with scroll speed.
+* **Cinematic Chase Camera**: The WebGL camera drops from a high-angle city view down to road level, tracking behind the vehicle in a smooth follow sequence.
+
+### 2. Glassmorphic User Interface
+* **Cursor-Following Spotlight**: Interactive cards track hover coordinates and cast a soft, responsive cyan spotlight glow (`.mouse-glow-card`) following your cursor.
+* **Symmetrical Design**: Fully centered navigation header (`Navbar.tsx`) and section headings.
+* **Theatrical Overlay**: Fixed widescreen letterbox frame (`.cinematic-frame`) and radial vignette overlays create a premium cinematic presentation.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Core Framework**: Next.js 15 (App Router)
+* **3D Graphics**: Three.js (WebGL)
+* **Animations**: Framer Motion
+* **Styling**: Tailwind CSS & Vanilla CSS custom variables
+
+---
+
+## 📂 Directory Structure
+
+```
+├── public/                 # Static assets (fonts, resume, SVGs)
+├── src/
+│   ├── app/
+│   │   ├── globals.css     # Global variables, vignettes & mouse glows
+│   │   ├── layout.tsx      # Fonts & Metadata config
+│   │   └── page.tsx        # App entry & widescreen layout
+│   └── components/
+│       ├── CinematicCanvas.tsx # WebGL skyline, road & armored vehicle
+│       ├── HeroIntro.tsx       # Main title & social routes
+│       ├── Origin.tsx          # About Me & NIMS University credentials
+│       ├── CommandCenter.tsx   # AI/ML & Web skills lists
+│       ├── Archives.tsx        # Project highlights & repository links
+│       ├── Certifications.tsx  # Verifiable J.P. Morgan, Anthropic, NVIDIA credentials
+│       ├── Contact.tsx         # WhatsApp uplink & query form
+│       └── Navbar.tsx          # Centered floating header
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Installation
+Install the required dependencies:
+```bash
+npm install
+```
 
-## Learn More
+### 2. Run the Development Server
+Start the local hot-reloaded dev server:
+```bash
+npm run dev
+```
+Open **[http://localhost:3000](http://localhost:3000)** in your browser to view the portfolio.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. Build for Production
+Generate a production optimized static build:
+```bash
+npm run build
+```
