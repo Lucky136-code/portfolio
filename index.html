@@ -6,29 +6,12 @@
   <title>Lucky Anish | AI/ML Engineer & Agentic Systems Builder</title>
   <meta name="description" content="Portfolio of Lucky Anish. B.Tech (AI/ML) specializing in Agentic AI, Computer Vision, RAG pipelines, and full-stack engineering.">
   
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-  
   <!-- Custom CSS Stylesheet -->
   <link rel="stylesheet" href="styles.css">
-
-  <!-- Three.js 3D Graphics Library CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
 
-  <!-- Widescreen Cinematic Letterbox Frame -->
-  <div class="cinematic-frame"></div>
-
-  <!-- Atmospheric Vignette Overlay -->
-  <div class="vignette"></div>
-
-  <!-- 3D Skyline Canvas Background -->
-  <canvas id="cinematic-canvas"></canvas>
-
-  <!-- Sticky Glassmorphic Navbar -->
+  <!-- Sticky Glassmorphic Pill Navbar -->
   <nav class="navbar" id="navbar">
     <ul class="nav-links">
       <li><a href="#about" class="nav-link">About</a></li>
@@ -47,41 +30,46 @@
     <section id="hero">
       <div class="container">
         <div class="hero-content">
-          <div class="badges-container">
-            <span class="badge badge-location">📍 Jaipur, Rajasthan, India</span>
-            <span class="badge badge-status">🎯 Seeking AI/ML & Agentic AI Internship</span>
+          
+          <div class="hero-badge-row">
+            <span class="hero-pill hero-pill-location">📍 Jaipur, Rajasthan, India</span>
+            <span class="hero-pill hero-pill-status">🎯 Seeking AI/ML & Agentic AI Internship</span>
           </div>
 
-          <h1 class="hero-name">Lucky Anish</h1>
-          <h2 class="hero-subtitle">AI/ML Engineer | Agentic Systems & Computer Vision</h2>
+          <span class="hero-author-name">Lucky Anish</span>
+          <h1 class="hero-giant-title">AI/ML ENGINEER</h1>
+          <h2 class="hero-subtitle">Agentic Systems & Computer Vision</h2>
 
-          <p class="hero-bio">
-            Final-year B.Tech (AI/ML) student with 5+ end-to-end projects spanning agentic AI, computer vision, NLP/RAG, and backend systems. Certified in Anthropic's Model Context Protocol (MCP), NVIDIA DLI, and Google Cloud Generative AI. Builds production-oriented systems combining LLM tool-calling, real-time CV pipelines, and full-stack engineering.
-          </p>
+          <div class="hero-bio-card">
+            <p class="hero-bio-text">
+              Final-year B.Tech (AI/ML) student with 5+ end-to-end projects spanning agentic AI, computer vision, NLP/RAG, and backend systems. Certified in Anthropic's Model Context Protocol (MCP), NVIDIA DLI, and Google Cloud Generative AI. Builds production-oriented systems combining LLM tool-calling, real-time CV pipelines, and full-stack engineering.
+            </p>
+          </div>
 
           <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">View 5 Featured Projects</a>
-            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            <a href="#projects" class="btn btn-blue">View 5 Featured Projects</a>
+            <a href="#contact" class="btn btn-white">Get In Touch</a>
           </div>
 
           <div class="social-links">
-            <a href="https://github.com/Lucky136-code" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+            <a href="https://github.com/Lucky136-code" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="GitHub">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/luckyanish136" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/luckyanish136" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
             </a>
-            <a href="mailto:iamluckyanish9304@gmail.com" class="social-icon" aria-label="Email">
+            <a href="mailto:iamluckyanish9304@gmail.com" class="social-pill" aria-label="Email">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="2" y="4" width="20" height="16" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
             </a>
           </div>
+
         </div>
       </div>
     </section>
@@ -90,59 +78,63 @@
     <section id="about">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">About Me</h2>
-          <div class="section-divider"></div>
+          <span class="section-pill-tag">about me</span>
+          <h2 class="section-title">BACKGROUND & EDUCATION</h2>
+          <p class="section-subtitle">A quick overview of my engineering philosophy, specialization, and academic coursework.</p>
         </div>
 
         <div class="about-grid">
-          <div class="about-text">
-            <p>
-              I am a final-year B.Tech student in <strong class="text-white">Artificial Intelligence & Machine Learning</strong> at NIMS University, Jaipur. My work bridges deep learning model engineering, real-time computer vision pipelines, and full-stack software architecture.
-            </p>
-            <p>
-              Rather than building static applications, I specialize in <strong class="text-cyan">Agentic AI systems</strong> — engineering autonomous OS-level shells, tool-calling agents with OpenAI Whisper voice execution, and Model Context Protocol (MCP) integrations that grant LLMs secure contextual capabilities.
-            </p>
-            <p>
-              Having shipped <strong class="text-white">5+ production-oriented end-to-end projects</strong> across computer vision (YOLOv8 & ByteTrack speed estimation), RAG pipelines, and high-coverage backend services, I am actively seeking an <strong class="text-white">AI/ML or Agentic AI Internship</strong>.
-            </p>
+          <div class="behance-card about-card">
+            <div class="about-text">
+              <p>
+                I am a final-year B.Tech student in <strong>Artificial Intelligence & Machine Learning</strong> at NIMS University, Jaipur. My work bridges deep learning model engineering, real-time computer vision pipelines, and full-stack software architecture.
+              </p>
+              <p>
+                Rather than building static applications, I specialize in <strong class="blue-highlight">Agentic AI systems</strong> — engineering autonomous OS-level shells, tool-calling agents with OpenAI Whisper voice execution, and Model Context Protocol (MCP) integrations that grant LLMs secure contextual capabilities.
+              </p>
+              <p>
+                Having shipped <strong>5+ production-oriented end-to-end projects</strong> across computer vision (YOLOv8 & ByteTrack speed estimation), RAG pipelines, and high-coverage backend services, I am actively seeking an <strong class="blue-highlight">AI/ML or Agentic AI Internship</strong>.
+              </p>
 
-            <div class="coursework-box">
-              <span class="coursework-title">Relevant Academic Coursework</span>
-              <div class="course-tags">
-                <span class="tag">Deep Learning</span>
-                <span class="tag">NLP</span>
-                <span class="tag">Computer Vision</span>
-                <span class="tag">Machine Learning</span>
-                <span class="tag">AI</span>
-                <span class="tag">DSA</span>
-                <span class="tag">DBMS</span>
-                <span class="tag">Operating Systems</span>
-                <span class="tag">Networks & Security</span>
+              <div class="coursework-container">
+                <span class="coursework-label">Relevant Academic Coursework</span>
+                <div class="course-pills">
+                  <span class="course-tag">Deep Learning</span>
+                  <span class="course-tag">NLP</span>
+                  <span class="course-tag">Computer Vision</span>
+                  <span class="course-tag">Machine Learning</span>
+                  <span class="course-tag">AI</span>
+                  <span class="course-tag">DSA</span>
+                  <span class="course-tag">DBMS</span>
+                  <span class="course-tag">Operating Systems</span>
+                  <span class="course-tag">Networks & Security</span>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="mouse-glow-card edu-card">
-            <h3>Education & Credentials</h3>
+          <div class="behance-card edu-card">
+            <h3 class="edu-card-title">EDUCATION & CERTIFICATIONS</h3>
             
-            <div class="edu-item">
+            <div class="edu-block">
               <span class="edu-label">DEGREE & UNIVERSITY</span>
-              <span class="edu-value">B.Tech — Artificial Intelligence & Machine Learning</span>
-              <span class="edu-sub text-cyan">NIMS University, Jaipur</span>
+              <span class="edu-val">B.Tech — Artificial Intelligence & Machine Learning</span>
+              <span class="edu-sub">NIMS University, Jaipur</span>
             </div>
 
-            <div class="edu-item" style="border-top: 1px solid var(--border-color); padding-top: 16px;">
-              <span class="edu-label">TRIPLE CERTIFIED</span>
-              <ul class="cert-list">
-                <li><span class="dot dot-cyan"></span> Anthropic Model Context Protocol (MCP)</li>
-                <li><span class="dot dot-green"></span> NVIDIA DLI — AI on Jetson Nano</li>
-                <li><span class="dot dot-blue"></span> Google Cloud — Generative AI Studio</li>
+            <div class="edu-block" style="border-top: 1px solid var(--border-color); padding-top: 16px;">
+              <span class="edu-label">INDUSTRY CERTIFICATIONS</span>
+              <ul class="cert-mini-list">
+                <li><span class="dot-badge dot-blue"></span> Anthropic Model Context Protocol (MCP)</li>
+                <li><span class="dot-badge dot-orange"></span> J.P. Morgan Software Engineering Simulation</li>
+                <li><span class="dot-badge dot-mint"></span> NVIDIA DLI — AI on Jetson Nano</li>
+                <li><span class="dot-badge dot-pink"></span> Google Cloud — Generative AI Studio</li>
               </ul>
             </div>
 
-            <div class="edu-item" style="border-top: 1px solid var(--border-color); padding-top: 16px;">
+            <div class="edu-block" style="border-top: 1px solid var(--border-color); padding-top: 16px;">
               <span class="edu-label">OPEN SOURCE</span>
-              <span class="edu-value">Agentic-IQ Contributor</span>
+              <span class="edu-val">Agentic-IQ Contributor</span>
               <span class="edu-sub">Active contributor since April 2026</span>
             </div>
           </div>
@@ -154,91 +146,80 @@
     <section id="skills">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Technical Skills</h2>
+          <span class="section-pill-tag">technical skills</span>
+          <h2 class="section-title">SKILLS & TECH STACK</h2>
           <p class="section-subtitle">Categorized technical expertise across modern AI, Machine Learning, Backend, and Infrastructure stacks.</p>
-          <div class="section-divider"></div>
         </div>
 
-        <div class="skills-grid">
+        <div class="skills-3col-grid">
           <!-- Languages -->
-          <div class="mouse-glow-card skill-category-card">
-            <div class="skill-category-header">
-              <h3 class="skill-category-title">Languages</h3>
-              <span class="skill-count-badge">6 Skills</span>
+          <div class="behance-card skill-col-card">
+            <div class="skill-col-header">
+              <span class="skill-pill-header">languages</span>
+              <span class="skill-count">6 Skills</span>
             </div>
-            <div class="skill-chips">
-              <span class="skill-chip">Python</span>
-              <span class="skill-chip">JavaScript / TypeScript</span>
-              <span class="skill-chip">Java</span>
-              <span class="skill-chip">Go</span>
-              <span class="skill-chip">Rust</span>
-              <span class="skill-chip">SQL</span>
+            <div class="skill-chips-flex">
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript / TypeScript</span>
+              <span class="chip">Java</span>
+              <span class="chip">Go</span>
+              <span class="chip">Rust</span>
+              <span class="chip">SQL</span>
             </div>
           </div>
 
           <!-- AI / ML -->
-          <div class="mouse-glow-card skill-category-card">
-            <div class="skill-category-header">
-              <h3 class="skill-category-title">AI / ML</h3>
-              <span class="skill-count-badge">13 Skills</span>
+          <div class="behance-card skill-col-card">
+            <div class="skill-col-header">
+              <span class="skill-pill-header">ai / ml</span>
+              <span class="skill-count">13 Skills</span>
             </div>
-            <div class="skill-chips">
-              <span class="skill-chip">PyTorch</span>
-              <span class="skill-chip">TensorFlow</span>
-              <span class="skill-chip">Keras</span>
-              <span class="skill-chip">Scikit-Learn</span>
-              <span class="skill-chip">HuggingFace</span>
-              <span class="skill-chip">LangChain</span>
-              <span class="skill-chip">RAG</span>
-              <span class="skill-chip">OpenCV</span>
-              <span class="skill-chip">YOLOv8</span>
-              <span class="skill-chip">BERT</span>
-              <span class="skill-chip">LLMs</span>
-              <span class="skill-chip">Agentic AI</span>
-              <span class="skill-chip">MCP</span>
-            </div>
-          </div>
-
-          <!-- Web / Backend -->
-          <div class="mouse-glow-card skill-category-card">
-            <div class="skill-category-header">
-              <h3 class="skill-category-title">Web / Backend</h3>
-              <span class="skill-count-badge">12 Skills</span>
-            </div>
-            <div class="skill-chips">
-              <span class="skill-chip">React</span>
-              <span class="skill-chip">Next.js</span>
-              <span class="skill-chip">Node.js</span>
-              <span class="skill-chip">Express</span>
-              <span class="skill-chip">FastAPI</span>
-              <span class="skill-chip">Flask</span>
-              <span class="skill-chip">REST APIs</span>
-              <span class="skill-chip">Prisma</span>
-              <span class="skill-chip">MongoDB</span>
-              <span class="skill-chip">PostgreSQL</span>
-              <span class="skill-chip">Supabase</span>
-              <span class="skill-chip">ChromaDB / FAISS</span>
+            <div class="skill-chips-flex">
+              <span class="chip">PyTorch</span>
+              <span class="chip">TensorFlow</span>
+              <span class="chip">Keras</span>
+              <span class="chip">Scikit-Learn</span>
+              <span class="chip">HuggingFace</span>
+              <span class="chip">LangChain</span>
+              <span class="chip">RAG</span>
+              <span class="chip">OpenCV</span>
+              <span class="chip">YOLOv8</span>
+              <span class="chip">BERT</span>
+              <span class="chip">LLMs</span>
+              <span class="chip">Agentic AI</span>
+              <span class="chip">MCP</span>
             </div>
           </div>
 
-          <!-- Tools & Infra -->
-          <div class="mouse-glow-card skill-category-card">
-            <div class="skill-category-header">
-              <h3 class="skill-category-title">Tools & Infra</h3>
-              <span class="skill-count-badge">11 Skills</span>
+          <!-- Web / Backend & Infra -->
+          <div class="behance-card skill-col-card">
+            <div class="skill-col-header">
+              <span class="skill-pill-header">tools & infra</span>
+              <span class="skill-count">23 Skills</span>
             </div>
-            <div class="skill-chips">
-              <span class="skill-chip">Docker</span>
-              <span class="skill-chip">Git</span>
-              <span class="skill-chip">GitHub</span>
-              <span class="skill-chip">GitHub Actions</span>
-              <span class="skill-chip">Kubernetes</span>
-              <span class="skill-chip">Linux</span>
-              <span class="skill-chip">Vercel</span>
-              <span class="skill-chip">Anthropic SDK</span>
-              <span class="skill-chip">Playwright</span>
-              <span class="skill-chip">Tauri</span>
-              <span class="skill-chip">Jest</span>
+            <div class="skill-chips-flex">
+              <span class="chip">React</span>
+              <span class="chip">Next.js</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">Flask</span>
+              <span class="chip">REST APIs</span>
+              <span class="chip">Prisma</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Supabase</span>
+              <span class="chip">ChromaDB / FAISS</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Git</span>
+              <span class="chip">GitHub Actions</span>
+              <span class="chip">Kubernetes</span>
+              <span class="chip">Linux</span>
+              <span class="chip">Vercel</span>
+              <span class="chip">Anthropic SDK</span>
+              <span class="chip">Playwright</span>
+              <span class="chip">Tauri</span>
+              <span class="chip">Jest</span>
             </div>
           </div>
         </div>
@@ -249,138 +230,153 @@
     <section id="projects">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Featured Projects</h2>
+          <span class="section-pill-tag">projects showcase</span>
+          <h2 class="section-title">FEATURED PROJECTS</h2>
           <p class="section-subtitle">5 end-to-end production-grade projects spanning Agentic AI, Computer Vision, Backend Systems, RAG, and Data Analytics.</p>
-          <div class="section-divider"></div>
         </div>
 
         <div class="projects-grid">
           <!-- Project 1 -->
-          <div class="mouse-glow-card project-card">
+          <div class="behance-card project-card">
             <div>
-              <span class="project-category">Agentic AI / Systems</span>
+              <div class="project-header-row">
+                <span class="project-number-badge">PROJECT 1</span>
+                <span class="project-category-tag">Agentic AI / Systems</span>
+              </div>
               <h3 class="project-title">AgentOS</h3>
               <span class="project-subtitle">Agent-Native OS Layer</span>
-              <ul class="project-bullets">
-                <li><span class="arrow">▸</span><span>Built a cross-platform desktop agent enabling AI tool registration, persistent memory, and autonomous task execution for agent-native software infrastructure.</span></li>
-                <li><span class="arrow">▸</span><span>Integrated OpenAI Whisper for voice input and LLM tool-calling on a Tauri/Rust shell, achieving near-native desktop performance.</span></li>
+              <ul class="project-bullet-list">
+                <li><span class="bullet-star">✨</span><span>Built a cross-platform desktop agent enabling AI tool registration, persistent memory, and autonomous task execution for agent-native software infrastructure.</span></li>
+                <li><span class="bullet-star">✨</span><span>Integrated OpenAI Whisper for voice input and LLM tool-calling on a Tauri/Rust shell, achieving near-native desktop performance.</span></li>
               </ul>
             </div>
-            <div class="project-footer">
-              <div class="project-tech">
-                <span class="tech-tag">Tauri</span>
-                <span class="tech-tag">Rust</span>
-                <span class="tech-tag">TypeScript</span>
-                <span class="tech-tag">Whisper</span>
-                <span class="tech-tag">LLM Tool-Calling</span>
+            <div class="project-footer-box">
+              <div class="tech-stack-row">
+                <span class="tech-pill">Tauri</span>
+                <span class="tech-pill">Rust</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Whisper</span>
+                <span class="tech-pill">LLM Tool-Calling</span>
               </div>
-              <a href="https://github.com/Lucky136-code/AgentOS" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="https://github.com/Lucky136-code/AgentOS" target="_blank" rel="noopener noreferrer" class="repo-link">
                 <span>View Repository on GitHub</span>
-                <span class="arrow-icon">→</span>
+                <span class="arrow-move">→</span>
               </a>
             </div>
           </div>
 
           <!-- Project 2 -->
-          <div class="mouse-glow-card project-card">
+          <div class="behance-card project-card">
             <div>
-              <span class="project-category">Computer Vision</span>
+              <div class="project-header-row">
+                <span class="project-number-badge">PROJECT 2</span>
+                <span class="project-category-tag">Computer Vision</span>
+              </div>
               <h3 class="project-title">Vehicle Detection & Speed Estimation</h3>
               <span class="project-subtitle">Real-Time Traffic Analytics</span>
-              <ul class="project-bullets">
-                <li><span class="arrow">▸</span><span>Engineered a real-time computer vision pipeline that detects, classifies (car/truck/bus/motorcycle), and tracks vehicles using YOLOv8 with persistent multi-object tracking.</span></li>
-                <li><span class="arrow">▸</span><span>Designed a pixel-to-real-world calibration model to estimate vehicle speed (km/h) and flag overspeeding events with CSV/JSON logging & Streamlit dashboard.</span></li>
+              <ul class="project-bullet-list">
+                <li><span class="bullet-star">✨</span><span>Engineered a real-time computer vision pipeline that detects, classifies (car/truck/bus/motorcycle), and tracks vehicles using YOLOv8 with persistent multi-object tracking.</span></li>
+                <li><span class="bullet-star">✨</span><span>Designed a pixel-to-real-world calibration model to estimate vehicle speed (km/h) and flag overspeeding events with CSV/JSON logging & Streamlit dashboard.</span></li>
               </ul>
             </div>
-            <div class="project-footer">
-              <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">YOLOv8</span>
-                <span class="tech-tag">ByteTrack</span>
-                <span class="tech-tag">OpenCV</span>
-                <span class="tech-tag">Streamlit</span>
+            <div class="project-footer-box">
+              <div class="tech-stack-row">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">YOLOv8</span>
+                <span class="tech-pill">ByteTrack</span>
+                <span class="tech-pill">OpenCV</span>
+                <span class="tech-pill">Streamlit</span>
               </div>
-              <a href="https://github.com/Lucky136-code/MultiObjTracking" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="https://github.com/Lucky136-code/MultiObjTracking" target="_blank" rel="noopener noreferrer" class="repo-link">
                 <span>View Repository on GitHub</span>
-                <span class="arrow-icon">→</span>
+                <span class="arrow-move">→</span>
               </a>
             </div>
           </div>
 
           <!-- Project 3 -->
-          <div class="mouse-glow-card project-card">
+          <div class="behance-card project-card">
             <div>
-              <span class="project-category">Backend Systems</span>
+              <div class="project-header-row">
+                <span class="project-number-badge">PROJECT 3</span>
+                <span class="project-category-tag">Backend Systems</span>
+              </div>
               <h3 class="project-title">Identity Reconciliation Service</h3>
               <span class="project-subtitle">Transactional Record Linking Engine</span>
-              <ul class="project-bullets">
-                <li><span class="arrow">▸</span><span>Built a backend service that reconciles customer identities by linking contact records (email/phone) across orders, even when different combinations are used per transaction.</span></li>
-                <li><span class="arrow">▸</span><span>Delivered production-ready code with full Jest test coverage (13/13 passing), a submission-ready README, and a demo script.</span></li>
+              <ul class="project-bullet-list">
+                <li><span class="bullet-star">✨</span><span>Built a backend service that reconciles customer identities by linking contact records (email/phone) across orders, even when different combinations are used per transaction.</span></li>
+                <li><span class="bullet-star">✨</span><span>Delivered production-ready code with full Jest test coverage (13/13 passing), a submission-ready README, and a demo script.</span></li>
               </ul>
             </div>
-            <div class="project-footer">
-              <div class="project-tech">
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Express</span>
-                <span class="tech-tag">Prisma</span>
-                <span class="tech-tag">SQLite</span>
-                <span class="tech-tag">Jest</span>
+            <div class="project-footer-box">
+              <div class="tech-stack-row">
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">Express</span>
+                <span class="tech-pill">Prisma</span>
+                <span class="tech-pill">SQLite</span>
+                <span class="tech-pill">Jest</span>
               </div>
-              <a href="https://github.com/Lucky136-code/-Identity-Reconciliation" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="https://github.com/Lucky136-code/-Identity-Reconciliation" target="_blank" rel="noopener noreferrer" class="repo-link">
                 <span>View Repository on GitHub</span>
-                <span class="arrow-icon">→</span>
+                <span class="arrow-move">→</span>
               </a>
             </div>
           </div>
 
           <!-- Project 4 -->
-          <div class="mouse-glow-card project-card">
+          <div class="behance-card project-card">
             <div>
-              <span class="project-category">NLP / Generative AI</span>
+              <div class="project-header-row">
+                <span class="project-number-badge">PROJECT 4</span>
+                <span class="project-category-tag">NLP / Generative AI</span>
+              </div>
               <h3 class="project-title">RAG Domain Chatbot</h3>
               <span class="project-subtitle">Source-Grounded Document Q&A</span>
-              <ul class="project-bullets">
-                <li><span class="arrow">▸</span><span>Developed an end-to-end Retrieval-Augmented Generation pipeline: PDF ingestion → chunking → FAISS vector store → LangChain RetrievalQA, evaluated using RAGAs.</span></li>
-                <li><span class="arrow">▸</span><span>Shipped a multi-turn React chat interface over a FastAPI backend for interactive, source-grounded document Q&A.</span></li>
+              <ul class="project-bullet-list">
+                <li><span class="bullet-star">✨</span><span>Developed an end-to-end Retrieval-Augmented Generation pipeline: PDF ingestion → chunking → FAISS vector store → LangChain RetrievalQA, evaluated using RAGAs.</span></li>
+                <li><span class="bullet-star">✨</span><span>Shipped a multi-turn React chat interface over a FastAPI backend for interactive, source-grounded document Q&A.</span></li>
               </ul>
             </div>
-            <div class="project-footer">
-              <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">LangChain</span>
-                <span class="tech-tag">FAISS</span>
-                <span class="tech-tag">FastAPI</span>
-                <span class="tech-tag">React</span>
+            <div class="project-footer-box">
+              <div class="tech-stack-row">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">LangChain</span>
+                <span class="tech-pill">FAISS</span>
+                <span class="tech-pill">FastAPI</span>
+                <span class="tech-pill">React</span>
               </div>
-              <a href="https://github.com/Lucky136-code/RagChatBot" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="https://github.com/Lucky136-code/RagChatBot" target="_blank" rel="noopener noreferrer" class="repo-link">
                 <span>View Repository on GitHub</span>
-                <span class="arrow-icon">→</span>
+                <span class="arrow-move">→</span>
               </a>
             </div>
           </div>
 
           <!-- Project 5 -->
-          <div class="mouse-glow-card project-card" style="grid-column: span 2;">
+          <div class="behance-card project-card" style="grid-column: span 2;">
             <div>
-              <span class="project-category">Data Science & Finance</span>
+              <div class="project-header-row">
+                <span class="project-number-badge">PROJECT 5</span>
+                <span class="project-category-tag">Data Science & Finance</span>
+              </div>
               <h3 class="project-title">Bitcoin Sentiment vs. Trader Performance</h3>
               <span class="project-subtitle">Market Analytics & Quantitative Insights</span>
-              <ul class="project-bullets">
-                <li><span class="arrow">▸</span><span>Analyzed the relationship between Bitcoin market sentiment (Fear & Greed Index) and Hyperliquid trader performance through structured data cleaning, exploratory analysis, and visualization in Jupyter.</span></li>
-                <li><span class="arrow">▸</span><span>Surfaced sentiment-driven trading patterns to inform hypotheses on how market mood correlates with trader profitability.</span></li>
+              <ul class="project-bullet-list">
+                <li><span class="bullet-star">✨</span><span>Analyzed the relationship between Bitcoin market sentiment (Fear & Greed Index) and Hyperliquid trader performance through structured data cleaning, exploratory analysis, and visualization in Jupyter.</span></li>
+                <li><span class="bullet-star">✨</span><span>Surfaced sentiment-driven trading patterns to inform hypotheses on how market mood correlates with trader profitability.</span></li>
               </ul>
             </div>
-            <div class="project-footer">
-              <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Pandas</span>
-                <span class="tech-tag">Jupyter</span>
-                <span class="tech-tag">Data Analysis</span>
-                <span class="tech-tag">Visualization</span>
+            <div class="project-footer-box">
+              <div class="tech-stack-row">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">Jupyter</span>
+                <span class="tech-pill">Data Analysis</span>
+                <span class="tech-pill">Visualization</span>
               </div>
-              <a href="https://github.com/Lucky136-code/PrimeTradeAi" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="https://github.com/Lucky136-code/PrimeTradeAi" target="_blank" rel="noopener noreferrer" class="repo-link">
                 <span>View Repository on GitHub</span>
-                <span class="arrow-icon">→</span>
+                <span class="arrow-move">→</span>
               </a>
             </div>
           </div>
@@ -392,145 +388,144 @@
     <section id="certifications">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Certifications</h2>
+          <span class="section-pill-tag">credentials</span>
+          <h2 class="section-title">CERTIFICATIONS</h2>
           <p class="section-subtitle">Official developer certifications and software engineering simulations.</p>
-          <div class="section-divider"></div>
         </div>
 
-        <div class="cert-grid">
+        <div class="cert-2x2-grid">
           <!-- Cert 1: Anthropic -->
-          <div class="mouse-glow-card cert-card">
+          <div class="behance-card cert-card">
             <div>
-              <div class="cert-header">
-                <div class="cert-logo logo-anthropic">
+              <div class="cert-top-row">
+                <div class="cert-logo-box logo-anthropic">
                   <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                     <path d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z" />
                   </svg>
                 </div>
-                <div class="cert-meta">
-                  <span class="cert-issuer-badge">Anthropic</span>
-                  <span class="cert-date">Jun 2026</span>
+                <div>
+                  <span class="cert-issuer-tag">Anthropic</span>
+                  <span class="cert-date-text">Jun 2026</span>
                 </div>
               </div>
               <h3 class="cert-card-title">Introduction to Model Context Protocol</h3>
               <p class="cert-card-desc">Certified developer capability in constructing custom Model Context Protocol (MCP) servers, establishing client-side tool calling, and structuring secure LLM resource schemas.</p>
             </div>
-            <div class="cert-id-box">
-              <span class="cert-id-label">CREDENTIAL ID</span>
-              <span class="cert-id-value">5utqn2pfrk7n</span>
+            <div class="cert-id-footer">
+              <span class="cert-id-lbl">CREDENTIAL ID</span>
+              <span class="cert-id-val">5utqn2pfrk7n</span>
             </div>
           </div>
 
           <!-- Cert 2: J.P. Morgan -->
-          <div class="mouse-glow-card cert-card">
+          <div class="behance-card cert-card">
             <div>
-              <div class="cert-header">
-                <div class="cert-logo logo-jpmorgan">
+              <div class="cert-top-row">
+                <div class="cert-logo-box logo-jpmorgan">
                   <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                     <path d="M0 15.415c0 .468.38.85.848.85h5.937V.575L0 7.72v7.695m15.416 8.582c.467 0 .846-.38.846-.849v-5.937H.573l7.146 6.785h7.697M24 8.587a.844.844 0 0 0-.847-.846h-5.938V23.43l6.782-7.148L24 8.586M8.585.003a.847.847 0 0 0-.847.847v5.94h15.688L16.282.003H8.585Z" />
                   </svg>
                 </div>
-                <div class="cert-meta">
-                  <span class="cert-issuer-badge">J.P. Morgan</span>
-                  <span class="cert-date">Jun 2026</span>
+                <div>
+                  <span class="cert-issuer-tag">J.P. Morgan</span>
+                  <span class="cert-date-text">Jun 2026</span>
                 </div>
               </div>
               <h3 class="cert-card-title">Software Engineering Job Simulation</h3>
               <p class="cert-card-desc">Hands-on simulation covering software design, development, and engineering processes. Practical experience utilizing Spring MVC, Apache Kafka, and modular design patterns.</p>
             </div>
-            <div class="cert-id-box">
-              <span class="cert-id-label">CREDENTIAL ID</span>
-              <span class="cert-id-value">6a27e3a15b0bc151b65cfa6a</span>
+            <div class="cert-id-footer">
+              <span class="cert-id-lbl">CREDENTIAL ID</span>
+              <span class="cert-id-val">6a27e3a15b0bc151b65cfa6a</span>
             </div>
           </div>
 
           <!-- Cert 3: NVIDIA DLI -->
-          <div class="mouse-glow-card cert-card">
+          <div class="behance-card cert-card">
             <div>
-              <div class="cert-header">
-                <div class="cert-logo logo-nvidia">
+              <div class="cert-top-row">
+                <div class="cert-logo-box logo-nvidia">
                   <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                     <path d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z" />
                   </svg>
                 </div>
-                <div class="cert-meta">
-                  <span class="cert-issuer-badge">NVIDIA DLI</span>
-                  <span class="cert-date">Dec 2025</span>
+                <div>
+                  <span class="cert-issuer-tag">NVIDIA DLI</span>
+                  <span class="cert-date-text">Dec 2025</span>
                 </div>
               </div>
               <h3 class="cert-card-title">Getting Started with AI on Jetson Nano</h3>
               <p class="cert-card-desc">Edge AI developer certification covering object detection, image classification, neural networks, PyTorch workflows, and hardware model deployments on NVIDIA Jetson systems.</p>
             </div>
-            <div class="cert-id-box">
-              <span class="cert-id-label">CREDENTIAL ID</span>
-              <span class="cert-id-value">jjzDXD9kS3u4lOXSbhuMUw</span>
+            <div class="cert-id-footer">
+              <span class="cert-id-lbl">CREDENTIAL ID</span>
+              <span class="cert-id-val">jjzDXD9kS3u4lOXSbhuMUw</span>
             </div>
           </div>
 
           <!-- Cert 4: Google Cloud -->
-          <div class="mouse-glow-card cert-card">
+          <div class="behance-card cert-card">
             <div>
-              <div class="cert-header">
-                <div class="cert-logo logo-gcp">
+              <div class="cert-top-row">
+                <div class="cert-logo-box logo-gcp">
                   <svg viewBox="0 0 24 24" width="24" height="24">
                     <path d="M12.19 2.38a9.344 9.344 0 0 0-9.234 6.893c.053-.02-.055.013 0 0-3.875 2.551-3.922 8.11-.247 10.941l.006-.007-.007.03a6.717 6.717 0 0 0 4.077 1.356h5.173l.03.03h5.192c6.687.053 9.376-8.605 3.835-12.35a9.365 9.365 0 0 0-2.821-4.552l-.043.043.006-.05A9.344 9.344 0 0 0 12.19 2.38zm-.358 4.146c1.244-.04 2.518.368 3.486 1.15a5.186 5.186 0 0 1 1.862 4.078v.518c3.53-.07 3.53 5.262 0 5.193h-5.193l-.008.009v-.04H6.785a2.59 2.59 0 0 1-1.067-.23h.001a2.597 2.597 0 1 1 3.437-3.437l3.013-3.012A6.747 6.747 0 0 0 8.11 8.24c.018-.01.04-.026.054-.023a5.186 5.186 0 0 1 3.67-1.69z" fill="#4285F4" />
                   </svg>
                 </div>
-                <div class="cert-meta">
-                  <span class="cert-issuer-badge">Google Cloud</span>
-                  <span class="cert-date">Dec 2025</span>
+                <div>
+                  <span class="cert-issuer-tag">Google Cloud</span>
+                  <span class="cert-date-text">Dec 2025</span>
                 </div>
               </div>
               <h3 class="cert-card-title">Introduction to Generative AI Studio</h3>
               <p class="cert-card-desc">Cloud certification covering generative models on Google Cloud Vertex AI Generative AI Studio, prototype testing, LLM parameter optimization, and prompt engineering.</p>
             </div>
-            <div class="cert-id-box">
-              <span class="cert-id-label">CREDENTIAL ID</span>
-              <span class="cert-id-value">9638839</span>
+            <div class="cert-id-footer">
+              <span class="cert-id-lbl">CREDENTIAL ID</span>
+              <span class="cert-id-val">9638839</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-
     <!-- ACHIEVEMENTS SECTION -->
     <section id="achievements">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Key Achievements</h2>
+          <span class="section-pill-tag">milestones</span>
+          <h2 class="section-title">KEY ACHIEVEMENTS</h2>
           <p class="section-subtitle">Proven milestones in shipping AI systems, industry certifications, and open-source contributions.</p>
-          <div class="section-divider"></div>
         </div>
 
         <div class="achievements-grid">
-          <div class="mouse-glow-card achievement-card">
+          <div class="behance-card achievement-card">
             <div>
-              <div class="achievement-top">
-                <span class="achievement-icon">🚀</span>
-                <span class="achievement-tag">Engineering Impact</span>
+              <div class="achievement-icon-row">
+                <span class="achievement-emoji">🚀</span>
+                <span class="achievement-pill">Engineering Impact</span>
               </div>
               <h3 class="achievement-title">5+ End-to-End Systems Shipped</h3>
               <p class="achievement-desc">Built and deployed 5+ full-stack ML, computer vision, and agentic AI projects within 6 months, covering everything from data pipelines to frontend interfaces.</p>
             </div>
           </div>
 
-          <div class="mouse-glow-card achievement-card">
+          <div class="behance-card achievement-card">
             <div>
-              <div class="achievement-top">
-                <span class="achievement-icon">📜</span>
-                <span class="achievement-tag">Verified Expertise</span>
+              <div class="achievement-icon-row">
+                <span class="achievement-emoji">📜</span>
+                <span class="achievement-pill">Verified Expertise</span>
               </div>
               <h3 class="achievement-title">Triple Industry Certifications</h3>
               <p class="achievement-desc">Certified in Anthropic's Model Context Protocol (MCP), NVIDIA Deep Learning Institute (AI on Jetson Nano), and Google Cloud Generative AI Studio.</p>
             </div>
           </div>
 
-          <div class="mouse-glow-card achievement-card">
+          <div class="behance-card achievement-card">
             <div>
-              <div class="achievement-top">
-                <span class="achievement-icon">🌐</span>
-                <span class="achievement-tag">Community & OSS</span>
+              <div class="achievement-icon-row">
+                <span class="achievement-emoji">🌐</span>
+                <span class="achievement-pill">Community & OSS</span>
               </div>
               <h3 class="achievement-title">Agentic-IQ Core Contributor</h3>
               <p class="achievement-desc">Active open-source core builder and contributor under the Agentic-IQ GitHub organization since April 2026, contributing to agent-native software infrastructure.</p>
@@ -544,52 +539,47 @@
     <section id="contact">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Get In Touch</h2>
+          <span class="section-pill-tag">let's talk</span>
+          <h2 class="section-title">LET'S BUILD TOGETHER!</h2>
           <p class="section-subtitle">Open for AI/ML and Agentic AI Internship opportunities, research collaborations, and engineering discussions.</p>
-          <div class="section-divider"></div>
         </div>
 
         <div class="contact-grid">
-          <div class="contact-info">
-            <h3>Contact Channels</h3>
-            <p style="font-size: 14px; color: var(--text-secondary); font-weight: 300;">
+          <div class="behance-card contact-info-card">
+            <h3>CONTACT CHANNELS</h3>
+            <p style="font-size: 14px; color: var(--text-secondary); font-weight: 400;">
               Feel free to reach out directly via email, phone, or LinkedIn. I am always open to discussing new projects, research, or AI internship opportunities.
             </p>
 
-            <div class="contact-channels">
+            <div class="contact-channels-list">
               <div class="contact-channel-item">
-                <span class="channel-label">Primary Email</span>
-                <a href="mailto:iamluckyanish9304@gmail.com" class="channel-value">iamluckyanish9304@gmail.com</a>
+                <span class="channel-lbl">Primary Email</span>
+                <a href="mailto:iamluckyanish9304@gmail.com" class="channel-val">iamluckyanish9304@gmail.com</a>
               </div>
 
               <div class="contact-channel-item">
-                <span class="channel-label">Phone / WhatsApp</span>
-                <a href="tel:+919304277935" class="channel-value">+91 9304277935</a>
+                <span class="channel-lbl">Phone / WhatsApp</span>
+                <a href="tel:+919304277935" class="channel-val">+91 9304277935</a>
               </div>
 
               <div class="contact-channel-item">
-                <span class="channel-label">Location</span>
-                <span class="channel-value">Jaipur, Rajasthan, India</span>
+                <span class="channel-lbl">Location</span>
+                <span class="channel-val">Jaipur, Rajasthan, India</span>
               </div>
 
               <div class="contact-channel-item">
-                <span class="channel-label">LinkedIn</span>
-                <a href="https://www.linkedin.com/in/luckyanish136" target="_blank" rel="noopener noreferrer" class="channel-value">linkedin.com/in/luckyanish136</a>
+                <span class="channel-lbl">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/luckyanish136" target="_blank" rel="noopener noreferrer" class="channel-val">linkedin.com/in/luckyanish136</a>
               </div>
 
               <div class="contact-channel-item">
-                <span class="channel-label">GitHub</span>
-                <a href="https://github.com/Lucky136-code" target="_blank" rel="noopener noreferrer" class="channel-value">github.com/Lucky136-code</a>
-              </div>
-
-              <div class="contact-channel-item">
-                <span class="channel-label">Live Portfolio</span>
-                <a href="https://portfolio-neon-seven-10.vercel.app" target="_blank" rel="noopener noreferrer" class="channel-value">portfolio-neon-seven-10.vercel.app</a>
+                <span class="channel-lbl">GitHub</span>
+                <a href="https://github.com/Lucky136-code" target="_blank" rel="noopener noreferrer" class="channel-val">github.com/Lucky136-code</a>
               </div>
             </div>
 
             <div style="padding-top: 16px; border-top: 1px solid var(--border-color);">
-              <a href="public/resume.docx" download class="btn btn-secondary" style="gap: 8px; font-size: 13px;">
+              <a href="public/resume.docx" download class="btn btn-white" style="gap: 8px; font-size: 13px; width: 100%;">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                   <polyline points="7 10 12 15 17 10" />
@@ -600,7 +590,7 @@
             </div>
           </div>
 
-          <div class="mouse-glow-card contact-form-card">
+          <div class="behance-card contact-form-card">
             <form id="contactForm">
               <div class="form-group">
                 <label for="formName">Your Name</label>
@@ -617,7 +607,7 @@
                 <textarea id="formMessage" class="form-textarea" rows="4" placeholder="Describe your internship opportunity or project inquiry..." required></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-submit">Send Message via WhatsApp</button>
+              <button type="submit" class="btn btn-blue btn-submit">Send Message via WhatsApp</button>
             </form>
           </div>
         </div>
