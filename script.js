@@ -1,35 +1,27 @@
-document.addEventListener("DOMContentLoaded", () => {
-  // --- 1. STICKY NAVBAR SCROLL VISIBILITY ---
-  const navbar = document.querySelector(".navbar");
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 120) {
-      navbar?.classList.add("visible");
-    } else {
-      navbar?.classList.remove("visible");
-    }
-  });
+document.addEventListener('DOMContentLoaded', () => {
+  const dots = document.querySelectorAll('.nav-dot');
+  const sections = document.querySelectorAll('.slide-frame');
 
-  // --- 2. WHATSAPP CONTACT FORM UPLINK ---
-  const contactForm = document.getElementById("contactForm");
-  if (contactForm) {
-    contactForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const name = document.getElementById("formName").value;
-      const email = document.getElementById("formEmail").value;
-      const message = document.getElementById("formMessage").value;
-      const submitBtn = contactForm.querySelector("button[type='submit']");
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.4
+  };
 
-      const originalText = submitBtn.textContent;
-      submitBtn.textContent = "Initiating Uplink...";
-
-      const formattedMessage = `[Portfolio Uplink]\n\nSender: ${name} (${email})\n\nMessage:\n${message}`;
-      const waUrl = `https://wa.me/919304277935?text=${encodeURIComponent(formattedMessage)}`;
-
-      setTimeout(() => {
-        window.open(waUrl, "_blank");
-        submitBtn.textContent = originalText;
-        contactForm.reset();
-      }, 800);
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        dots.forEach(dot => {
+          if (dot.getAttribute('href') === `#${id}`) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      }
     });
-  }
+  }, observerOptions);
+
+  sections.forEach(section => observer.observe(section));
 });
